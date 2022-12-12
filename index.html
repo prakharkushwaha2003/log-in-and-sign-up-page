@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login and signup page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container" id="background">
+        <div class="form-box" id="main-content">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-button" onclick="login()">
+                    Login
+                </button>
+                <button type="button" class="toggle-button" onclick="register()">
+                    Register
+                </button>
+            </div>
+            <div class="social-mediaicon">
+                <img src="images/apple.jpg" />
+                <img src="images/key.jpg" />
+                <img src="images/faceebook.jpg" />
+                <img src="images/google.jpg" />
+            </div>
+            <div class="form" id="login">
+                <input type="text" placeholder="Enter your username" class="form-field" required />
+                <input type="password" placeholder="Enter your password" class="form-field" required />
+                <div class="checkbox">
+                    <input type="checkbox" /><span> Remember</span>
+                </div>
+                <button type="submit">Login</button>
+            </div>
+         <div class="form" id="register">
+                <input type="text" placeholder="Enter your username" class="form-field" required />
+                <input type="email" placeholder="Enter your password" class="form-field" required />
+                <input type="password" placeholder="Enter your email" class="form-field" required />
+
+        <div class="checkbox">
+                    <input type="checkbox" /><span> Terms and conditions required</span>
+                </div>
+                <button type="submit">Register</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
